@@ -1,0 +1,72 @@
+﻿/*公共定义部分*/
+*{margin:0;padding:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:12px/1.14 '\5FAE\8F6F\96C5\9ED1','\5b8b\4f53',arial;color:#333;outline:0;}
+a{color:#333;transition:all 0.5s ease-in-out;}
+img{vertical-align:bottom;}
+.f-fl{float:left;}
+.f-fr{float:right;}
+.f-oh{overflow:hidden;}
+.g-w1000{ width: 1200px; margin: 0 auto; }
+.m-box{ padding:50px 0; }
+.m-box .ht{ font-size:22px; margin-bottom:50px; }
+/*标题*/
+.m-box .ht span{ display:block; color:#aaa; font-size:12px; font-family:"Courier New", Courier, monospace; text-transform:uppercase; margin-top:10px; }
+.m-logo{ text-align:center;margin-top:30px; margin-bottom:20px; }
+/*导航*/
+.m-nav{ background-color:#fff; height:60px; line-height:45px; position:relative; }
+.m-nav li{ display:inline; float:left; }
+.m-nav li a{ display:block; color:#000; width:118px; font-size:16px; text-align:center; }
+.m-nav li a.home{ background-color:#000; color:#ffffff;   font-size:16px; }
+/*banner*/
+.m-sld{  background: url(../img/ad1.jpg)no-repeat center 50%; height:478px; }
+.m-sld2{ background: url(../img/ad2.jpg)no-repeat center 50%; height:478px; }
+
+.m-sld .g-w1000{ position:relative; }
+.m-sld a{ position:absolute; top:50px; }
+/*关于我们*/
+.m-cnt-gsjj{ font-size:13px; line-height:35px;}
+.m-cnt-gsjj img{ display:block; float:right; margin-left:30px; width:550px; margin-top:-60px;}
+
+/*摄影作品*/
+.m-imglst1 li{ display:inline; float:left; width:270px; margin:0 35px 28px 0; }
+.m-imglst1 li:nth-child(4n){ margin-right:0; }
+.m-imglst1 li .preimg img{ width:270px; height:250px; }
+.m-imglst1 li p{ height:30px; line-height:30px; font-size:17px; margin:10px 0; text-align:center; overflow:hidden; }
+/*摄影技巧*/
+.m-imglst2 li{ display:inline; float:left; width:570px; margin:0 30px 30px 0; }
+.m-imglst2 li:nth-child(2n){ margin-right:0; }
+.m-imglst2 li .preimg{ float:left; margin-right:30px; }
+.m-imglst2 li .preimg img{ width:150px; height:120px; }
+.m-imglst2 li dt{ font-size:17px; line-height:30px; }
+.m-imglst2 li dd{ color:#888; line-height:25px; text-align:justify; }
+.m-imglst2 li dd span{ margin-right:5px; }
+
+/*page分页*/
+.m-page{ text-align:center; margin-top:30px; }
+.m-page a,
+.m-page span{ border: 1px solid #ddd; display:inline-block; margin:0 1px; padding:8px 16px; }
+.m-page a:hover, .m-page .thisclass{ background-color:#c72425; border: 1px solid #c72425; color:#fff; }
+.m-page .disabled, .m-page .pageinfo { background-color:#f2f2f2; color:#888; }
+
+/*在线留言*/
+.message-wrap{ width:600px; margin-left:300px; height:500px; }
+.message{ width:100%; height:50px; float:left; margin-bottom:25px;}
+.message1{ width:100%; height:150px; float:left; margin-bottom:25px;}
+.message span{ line-height:45px;  height:50px; font-size:16px; display:block; margin-right:10px; float:left;}
+.message1 span{ line-height:45px;  height:50px; font-size:16px; display:block; margin-right:10px; float:left;}
+.message-text{ width:485px; height:45px; border:1px solid #cccccc; border-radius:4px; padding-left:15px; }
+.message-textarea{ width:485px; height:125px; border:1px solid #cccccc; border-radius:4px; padding-left:15px; }
+.message-sub{ width:150px; border:0px; margin-left:200px; height:45px; background:#000; color:#ffffff; text-align:center;}
+
+/*foot*/
+.foot{ width:100%; border-top:3px solid #c72425; text-align:center;padding:10px }
+
+
+
+
+
